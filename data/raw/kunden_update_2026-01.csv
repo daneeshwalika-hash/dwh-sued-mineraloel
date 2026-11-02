@@ -1,0 +1,21 @@
+kunden_nr;kundentyp;firma;vorname;nachname;strasse;plz;ort;bundesland;telefon;email;erstellt_am
+K0009;privat;;Uwe;Wolf;Hauptstraße 32;72070;Tübingen;Baden-Württemberg;07806 520621;uwe.wolf@gmx.de;07.10.2024
+K0105;Gewerbe;Schulz Bau GmbH;Daniel;Schulz;Daimlerstraße 61;73728;Esslingen am Neckar;Baden-Württemberg;;;08.04.2022
+K0139;gewerbe;Hofmann Autohaus;Anna;Hofmann;Daimlerstraße 18;04109;Leipzig;Baden-Württemberg;00497939102418;anna.hofmann@t-online.de;20.12.2021
+K0043;G;Richter Autohaus;Lukas;Richter;Gartenstraße 12;01067;Dresden;BW;07349-558905;lukas.richter@gmx.de;08/14/2022
+K0074;privat;;Frank;Klein;Industriestraße 33;71083;Herrenberg;Baden-Württemberg;+49 7596 795847;frank.klein@web.de;05/15/2021
+K0052;G;Neumann Transporte;Monika;Neumann;Daimlerstraße 100;71032;Böblingen;Baden-Wuerttemberg;00497351354216;monika.neumann@t-online.de;10.09.2024
+K0042;Privat;;Stefan;Becker;Schillerstraße 84;70173;Stuttgart;Sachsen;07391/377768;stefan.becker@web.de;06.07.22
+K0060;Gewerbe;Krüger Heizungsbau;Markus;Krüger;Schillerstraße 76;75172;Pforzheim;Baden-Wuerttemberg;07544/602138;markus.krueger@web;21.08.2021
+K0050;G;Müller Spedition;Frank;Müller;Bahnhofstraße 23;71032;Böblingen;Baden-Wuerttemberg;07246-621841;frank.mueller@t-online.de;2022-05-16
+K0062;Gewerbe;Braun Heizungsbau;Nina;Braun;Gartenstraße 44;75172;Pforzheim;Sachsen;00497097427730;nina.braun@firma-bw.de;2021-08-23
+K0014;gewerbe;Becker Bau GmbH;Stefan;Becker;Daimlerstraße 41;71083;Herrenberg;BW;07318-250127;stefan.becker@web.de;2024-04-10
+K0037;privat;;Petra;Hoffmann;Robert-Bosch-Str. 97;71083;Herrenberg;Baden-Württemberg;07454/530122;petra.hoffmann@gmx.de;2024-02-08
+K0056;Gewerbe;Koch Autohaus;Daniel;Koch;Industriestraße 64;71083;Herrenberg;Baden-Württemberg;07030-602971;daniel.koch@firma-bw.de;2023-04-17
+K0059;Gewerbe;Wagner Bau GmbH;Daniel;Wagner;Bahnhofstraße 70;73728;Esslingen am Neckar;Baden-Württemberg;+49 7887 127032;daniel.wagner@t-online.de;2024-05-05
+K0065;Gewerbe;;Daniel;Müller;Bahnhofstraße 73;71638;Ludwigsburg;Baden-Wuerttemberg;;;25.09.2022
+K0160;Gewerbe;Schmidt Landwirtschaft;Petra;Schmidt;Bahnhofstraße 16;71116;Gärtringen;Baden-Württemberg;00497255178811;info@schmidt-gmbh.de;2026-01-10
+K0161;Gewerbe;Schneider Transporte;Andreas;Schneider;Schillerstraße 52;89073;Ulm;Baden-Württemberg;+49 7987 534850;info@schneider-gmbh.de;2026-01-10
+K0162;Gewerbe;Krüger Landwirtschaft;Nina;Krüger;Schillerstraße 104;01067;Dresden;Sachsen;07483-693347;info@krüger-gmbh.de;2026-01-10
+K0163;Gewerbe;Meyer Logistik;Lukas;Meyer;Bahnhofstraße 106;75172;Pforzheim;Baden-Württemberg;07816 833654;info@meyer-gmbh.de;2026-01-10
+K0164;Gewerbe;Meyer Transporte;Katrin;Meyer;Robert-Bosch-Str. 53;72070;Tübingen;Baden-Württemberg;07177 704270;info@meyer-gmbh.de;2026-01-10

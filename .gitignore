@@ -1,0 +1,29 @@
+# Python-Umgebung und Caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Einstellungen der Entwicklungsumgebung
+.idea/
+
+# Passwörter nie versionieren
+db_config.ini
+
+# Laufergebnisse: werden bei jedem Lauf neu erzeugt
+data/rejected/*.csv
+logs/
+
+# Lokale Zugangsdaten / Umgebungsvariablen
+.env
+.env.*
+!.env.example
+
+# Weitere Editoren und Betriebssystem-Dateien
+.vscode/
+Thumbs.db
+.DS_Store
+
+# Logdateien und neu erzeugte Daten (scripts/generate_data.py)
+*.log
+data/generated/

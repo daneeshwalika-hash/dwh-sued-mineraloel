@@ -1,0 +1,11 @@
+# Python 3.12 · Versionen getestet am 02.11.2026 (frische venv, pytest 55 passed, main.py 4/4 OK)
+pandas==3.1.0
+sqlalchemy==2.1.6
+psycopg[binary]==3.3.6
+holidays==0.106
+# Tests (tests/test_bereinigung.py), Version fest für reproduzierbare Läufe (Q-05)
+pytest==9.1.1
+# Diagramme (etl/06_erstelle_diagramme.py, E-41): Version fest, damit jeder Lauf dieselben
+# PNG-Dateien erzeugt (md5, Q-05). Pillow schreibt die PNG-Dateien für matplotlib.
+matplotlib==3.11.2
+pillow==13.0.0

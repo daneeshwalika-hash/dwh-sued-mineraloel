@@ -1,0 +1,53 @@
+# Data Quality Issues (automatisch erzeugt von explore/01_explore.py)
+
+Nicht von Hand bearbeiten – Skript erneut ausführen.
+
+| Nr | Datei | Spalte | Problem | Anzahl | Beispiele | Lösungsvorschlag |
+|---|---|---|---|---|---|---|
+| 1 | kunden.csv | (ganze Zeile) | exakte Dublette | 4 | 'K0023' / 'K0056' / 'K0114' / 'K0026' | drop_duplicates() + Anzahl protokollieren |
+| 2 | kunden.csv | kunden_nr | mögliche Near Duplicates (gleicher Name + E-Mail, andere Nummer) | 18 | 'K0152 Markus Fischer' / 'K0104 Nina Braun' / 'K0001 Michael MÜLLER' / 'K0109 Petra Weber' | NICHT automatisch zusammenführen, als Warnung protokollieren (siehe Entscheidung E-06) |
+| 3 | kunden.csv | kundentyp | uneinheitliche Schreibweise | 84 | 'gewerbe' / 'privat' / 'G' / 'P' | Mapping: G/gewerbe -> Gewerbe, P/privat -> Privat |
+| 4 | kunden.csv | ort | gleiche Stadt in mehreren Schreibweisen (Groß/klein, Leerzeichen) | 105 | 'Gärtringen' / 'Herrenberg' / 'TÜBINGEN' / 'Sindelfingen' | strip() + Mapping-Tabelle auf offiziellen Ortsnamen |
+| 5 | kunden.csv | ort | Abkürzung / Umschrift statt Ortsname | 33 | 'Esslingen' / 'Esslingen a.N.' / 'Boeblingen' / 'Gaertringen' | Mapping: Stgt. -> Stuttgart, Boeblingen -> Böblingen usw. |
+| 6 | kunden.csv | plz | leer | 2 | '' | aus Ort ableiten oder NULL + Warnung |
+| 7 | kunden.csv | plz | führende Null fehlt (4-stellig) | 20 | '4109' / '1067' | zfill(5) |
+| 8 | kunden.csv | plz | Länderpräfix 'D-' | 7 | 'D-70173' / 'D-71083' / 'D-75172' | Präfix entfernen |
+| 9 | kunden.csv | plz | Leerzeichen am Rand | 6 | '71116 ' / '89073 ' / '71065 ' / '70173 ' | strip() |
+| 10 | kunden.csv | bundesland | uneinheitlich (BW, Wuerttemberg mit ue) | 69 | 'Baden-Wuerttemberg' / 'BW' | Mapping auf 'Baden-Württemberg' |
+| 11 | kunden.csv | telefon | leer | 16 | '' | NULL erlauben |
+| 12 | kunden.csv | telefon | Format nicht einheitlich (0049, +49, /, -) | 115 | '00497084624139' / '+49 7083 264686' / '07119/291936' / '+49 7596 795847' | Regex -> +49 7031 123456 |
+| 13 | kunden.csv | email | leer | 9 | '' | NULL erlauben |
+| 14 | kunden.csv | email | ungültig (kein @ oder keine Domain-Endung) | 9 | 'julia.hofmann@gmx' / 'lukas.neumann@gmx' / 'markus.krueger@web' / 'katrin.richterweb.de' | Regex-Prüfung, ungültig -> NULL + Warnung |
+| 15 | kunden.csv | email | Großbuchstaben | 10 | 'SOPHIE.KLEIN@FIRMA-BW.DE' / 'SABINE.SCHULZ@WEB.DE' / 'JUERGEN.BRAUN@T-ONLINE.DE' / 'DANIEL.WEBER@WEB.DE' | lower() |
+| 16 | kunden.csv | vorname | leer | 3 | 'K0135' / 'K0048' / 'K0129' | NULL erlauben |
+| 17 | kunden.csv | nachname | komplett in Großbuchstaben | 2 | 'MÜLLER' | title() – Achtung bei 'von', 'Mc' usw. |
+| 18 | kunden.csv | erstellt_am | mehrere Datumsformate (nicht ISO) | 70 | '15.06.2021' / '18.03.24' / '20.12.2021' / '05/15/2021' | jedes Format explizit parsen -> DATE |
+| 19 | produkte.json | artikel_nr | Format abweichend (klein / Leerzeichen) | 1 | 'a-007 ' | strip().upper() |
+| 20 | produkte.json | artikel_nr | Dublette nach Normalisierung | 2 | 'A-007' / 'a-007 ' | nur einen Datensatz behalten + protokollieren |
+| 21 | produkte.json | preis | fehlt (null) | 5 | 'A-007' / 'A-017' / 'A-018' / 'A-019' | NULL, Preis kommt aus der Bestellung |
+| 22 | produkte.json | preis | als Text statt Zahl ('1,74 €' oder '1.62') | 13 | '1.62' / '1,74 €' / '1,85 €' / '1,12 €' | € entfernen, Komma -> Punkt, float() |
+| 23 | produkte.json | einheit | uneinheitlich | 18 | 'ltr' / 'l' / 'Liter' / 'KG' | Mapping: l/ltr/Liter -> L, Stk/pcs -> Stück |
+| 24 | produkte.json | aktiv | Typ gemischt (true / 1 / 'ja') | 8 | '1' / 'ja' | auf bool mappen |
+| 25 | produkte.json | bezeichnung | komplett in Großbuchstaben | 4 | 'SUPER E5' / 'ATF DEXRON III' / 'ADBLUE' / 'KANISTER 20L METALL' | Schreibweise prüfen (ATF/AdBlue sind Eigennamen!) |
+| 26 | produkte.json | lieferant | Lieferant fehlt komplett | 3 | 'A-001' / 'A-017' / 'A-020' | 'Unbekannt' oder NULL |
+| 27 | produkte.json | lieferant.land | uneinheitlich (DE / Deutschland / Germany) | 12 | 'Germany' / 'Deutschland' | ISO-Code 'DE' |
+| 28 | bestellungen.csv | (ganze Zeile) | exakte Dublette | 25 | '100016/2' / '100751/3' / '101229/1' / '100319/3' | drop_duplicates() + protokollieren |
+| 29 | bestellungen.csv | bestelldatum | mehrere Datumsformate (nicht ISO) | 997 | '09.01.2024' / '08.01.24' / '11/10/2025' / '11.10.25' | jedes Format explizit parsen |
+| 30 | bestellungen.csv | bestelldatum | ungültiges Datum (existiert nicht) | 1 | '2027-02-30' | aus anderen Positionen derselben Bestellung übernehmen, sonst rejected |
+| 31 | bestellungen.csv | bestelldatum | Datum in der Zukunft (nach Export 2026-01-05) | 2 | '15.08.2027' | aus anderen Positionen derselben Bestellung übernehmen |
+| 32 | bestellungen.csv | bestelldatum | Bestellung hat in ihren Positionen verschiedene Daten | 8 | '100780' / '100707' | Datum ist Attribut der Bestellung (Kopf) -> Mehrheitswert |
+| 33 | bestellungen.csv | kunden_nr | leer | 42 | '100220' / '101280' / '100896' / '101270' | Unbekannt-Kunde (kunde_sk = -1) |
+| 34 | bestellungen.csv | kunden_nr | Kleinbuchstaben | 69 | 'k0040' / 'k0143' / 'k0095' / 'k0109' | upper() |
+| 35 | bestellungen.csv | kunden_nr | Kunde existiert nicht (Orphan) | 33 | 'K9999' | Unbekannt-Kunde (kunde_sk = -1) + Protokoll |
+| 36 | bestellungen.csv | artikel_nr | Format abweichend (a-005 / A005 / Leerzeichen) | 95 | 'A019' / 'A011' / 'a-020' / 'A012' | Regex: Buchstabe + 3 Ziffern -> 'A-005' |
+| 37 | bestellungen.csv | artikel_nr | Produkt existiert nicht (Orphan) | 11 | 'A-999' | rejected (Umsatz ohne Produkt ist nicht auswertbar) |
+| 38 | bestellungen.csv | menge | negativ | 40 | '-59' / '-14' / '-50' / '-2000' | rejected + Rückfrage Fachabteilung |
+| 39 | bestellungen.csv | menge | null (0) | 17 | '0' | rejected |
+| 40 | bestellungen.csv | einzelpreis | leer | 56 | '101052' / '100028' / '100624' / '101206' | Listenpreis aus Produkt, falls vorhanden, sonst rejected |
+| 41 | bestellungen.csv | einzelpreis | deutsches Dezimalkomma | 2100 | '14,00' / '10,64' / '7,73' / '1,68' | Komma -> Punkt, float() |
+| 42 | bestellungen.csv | rabatt_prozent | leer | 324 | '100861' / '100806' / '100619' / '100380' | 0 annehmen (dokumentieren!) |
+| 43 | bestellungen.csv | rabatt_prozent | deutsches Dezimalkomma | 304 | '2,5' | Komma -> Punkt |
+| 44 | bestellungen.csv | zahlungsart | 9 Schreibweisen für 4 Zahlungsarten | 1450 | 'bar' / 'Barzahlung' / 'rechnung' / 'SEPA-Lastschrift' | Mapping-Tabelle |
+| 45 | bestellungen.csv | lieferstatus | Groß-/Kleinschreibung uneinheitlich | 709 | 'Geliefert' / 'GELIEFERT' | lower() |
+| 46 | kunden_update_2026-01.csv | bundesland | passt nicht zum Ort (z. B. Leipzig + Baden-Württemberg) | 4 | 'K0139 Leipzig/Baden-Württemberg' / 'K0043 Dresden/BW' / 'K0042 Stuttgart/Sachsen' / 'K0062 Pforzheim/Sachsen' | Bundesland aus PLZ/Ort ableiten statt aus der Datei |
+| 47 | kunden_update_2026-01.csv | email | gleiche E-Mail bei verschiedenen neuen Kunden | 4 | 'K0042 stefan.becker@web.de' / 'K0014 stefan.becker@web.de' / 'K0163 info@meyer-gmbh.de' / 'K0164 info@meyer-gmbh.de' | Warnung (Sammeladresse info@) |

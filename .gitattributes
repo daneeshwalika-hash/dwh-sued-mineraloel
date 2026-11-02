@@ -1,0 +1,10 @@
+# Text files: stored with LF in the repository
+* text=auto
+
+# Raw data must stay byte-identical (R-02, checksums): no line-ending conversion
+data/raw/** -text
+
+# Binary files
+*.png binary
+*.jpg binary
+*.pdf binary

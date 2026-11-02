@@ -1,0 +1,158 @@
+kunden_nr;kundentyp;firma;vorname;nachname;strasse;plz;ort;bundesland;telefon;email;erstellt_am
+K0125;Privat;;Elif;Krüger;Schillerstraße 61;71116;Gärtringen;Baden-Württemberg;00497084624139;elif.krueger@gmx.de;15.06.2021
+K0039;Gewerbe;Yilmaz Logistik;Markus;Yilmaz;Robert-Bosch-Str. 27;73728;Esslingen;Baden-Württemberg;+49 7083 264686;markus.yilmaz@t-online.de;2022-09-18
+K0144;gewerbe;Krüger Landwirtschaft;Andreas;Krüger;Daimlerstraße 105;71083;Herrenberg;Baden-Württemberg;07804 531589;andreas.krueger@t-online.de;18.03.24
+K0139;gewerbe;Hofmann Autohaus;Anna;Hofmann;Daimlerstraße 18;73728;Esslingen a.N.;Baden-Württemberg;07119/291936;anna.hofmann@t-online.de;20.12.2021
+K0074;privat;;Frank;Klein;Industriestraße 33;73728;Esslingen;Baden-Württemberg;+49 7596 795847;frank.klein@web.de;05/15/2021
+K0096;privat;;Andreas;Hoffmann;Bahnhofstraße 98;73728;Esslingen am Neckar;Baden-Wuerttemberg;07478/622987;andreas.hoffmann@firma-bw.de;2021-11-24
+K0089;Gewerbe;Hofmann Logistik;Julia;Hofmann;Hauptstraße 104;72070;TÜBINGEN;BW;07726-168093;julia.hofmann@gmx;2023-07-15
+K0013;Gewerbe;Neumann Bau GmbH;Daniel;Neumann;Robert-Bosch-Str. 68;71065;Sindelfingen;Baden-Württemberg;+49 7082 992697;daniel.neumann@web.de;2022-10-05
+K0140;Gewerbe;Klein Werkstatt;Sophie;Klein;Bahnhofstraße 24;73728;Esslingen a.N.;Baden-Wuerttemberg;07886 476479;SOPHIE.KLEIN@FIRMA-BW.DE;2024-08-14
+K0044;Gewerbe;Braun Bau GmbH;Thomas;Braun;Industriestraße 57;71638;Ludwigsburg ;Baden-Wuerttemberg;07996-760626;thomas.braun@t-online.de;25.06.2023
+K0152;privat;;Markus;Fischer;Hauptstraße 65;4109;leipzig;Sachsen;+49 7810 246622;markus.fischer@web.de;2021-03-26
+K0122;Gewerbe;Neumann Transporte;Lukas;Neumann;Hauptstraße 105;71638;Ludwigsburg ;Baden-Württemberg;+49 7422 244170;lukas.neumann@gmx;2022-01-12
+K0056;Gewerbe;Koch Autohaus;Daniel;Koch;Industriestraße 64;89073;Ulm;Baden-Württemberg;00497550242254;daniel.koch@firma-bw.de;2023-04-17
+K0071;G;Schulz Landwirtschaft;Sabine;Schulz;Gartenstraße 88;71116;gärtringen;BW;+49 7642 431495;SABINE.SCHULZ@WEB.DE;2023-10-09
+K0130;Gewerbe;Wolf Transporte;Sophie;Wolf;Hauptstraße 93;71032;Boeblingen;Baden-Württemberg;07173/245584;sophie.wolf@web.de;2023-02-28
+K0026;gewerbe;Wolf Landwirtschaft;Sophie;Wolf;Daimlerstraße 31;75172;PFORZHEIM;Baden-Wuerttemberg;;sophie.wolf@firma-bw.de;2024-07-29
+K0138;Gewerbe;Wagner Werkstatt;Uwe;Wagner;Industriestraße 42;71638;Ludwigsburg;Baden-Wuerttemberg;07686-613261;uwe.wagner@web.de;09.05.21
+K0104;privat;;Nina;Braun;Hauptstraße 45;73728;Esslingen a.N.;BW;07219-311883;nina.braun@firma-bw.de;2021-10-27
+K0147;Gewerbe;Hoffmann Landwirtschaft;Anna;Hoffmann;Gartenstraße 3;71083;Herrenberg;Baden-Württemberg;+49 7000 548580;anna.hoffmann@firma-bw.de;10.04.21
+K0001;Gewerbe;Müller Bau GmbH;Michael;MÜLLER;Hauptstraße 28;4109;Leipzig;Sachsen;07733-781453;michael.mueller@gmx.de;2024-01-22
+K0041;G;Schneider Heizungsbau;Sabine;Schneider;Gartenstraße 57;70173;Stuttgart;Baden-Württemberg;07752-437978;sabine.schneider@t-online.de;2022-09-15
+K0103;gewerbe;Hofmann Bau GmbH;Katrin;Hofmann;Gartenstraße 41;71638;ludwigsburg;BW;07956/934042;katrin.hofmann@t-online.de;2022-09-02
+K0091;Privat;;Stefan;Hoffmann;Hauptstraße 58;73728;Esslingen a.N.;BW;07848-918164;stefan.hoffmann@firma-bw.de;23.03.2024
+K0035;G;Braun Logistik;Lukas;Braun;Schillerstraße 48;71116 ;Gaertringen;BW;07763/677124;lukas.braun@firma-bw.de;2022-03-30
+K0046;privat;;Sabine;Klein;Robert-Bosch-Str. 1;71116;Gaertringen;BW;00497593791998;sabine.klein@gmx.de;04/30/2023
+K0137;Gewerbe;Schmidt Transporte;Frank;Schmidt;Gartenstraße 60;4109;Leipzig;Sachsen;00497190771590;frank.schmidt@web.de;2022-05-15
+K0043;G;Richter Autohaus;Lukas;Richter;Gartenstraße 12;73728;Esslingen a.N.;BW;00497993910075;lukas.richter@gmx.de;08/14/2022
+K0025;G;Wolf Logistik;Michael;Wolf;Schillerstraße 72;71116;gärtringen;BW;07912-564071;michael.wolf@web.de;06.09.2021
+K0058;Gewerbe;Braun Werkstatt;Jürgen;Braun;Schillerstraße 3;1067;Dresden;Sachsen;07128-925206;JUERGEN.BRAUN@T-ONLINE.DE;2023-07-21
+K0116;Gewerbe;Becker Logistik;Andreas;Becker;Robert-Bosch-Str. 118;04109;leipzig;Sachsen;07897-250219;andreas.becker@gmx.de;2021-04-26
+K0086;G;Braun Autohaus;Petra;Braun;Gartenstraße 6;72070;TÜBINGEN;BW;07445 387892;petra.braun@t-online.de;2024-05-19
+K0105;Gewerbe;Schulz Bau GmbH;Daniel;Schulz;Daimlerstraße 61;71065;Sindelfingen;Baden-Württemberg;;;08.04.2022
+K0038;Gewerbe;Meyer Logistik;Anna;Meyer;Industriestraße 11;70173;stuttgart;Baden-Württemberg;07426-735770;anna.meyer@web.de;01.06.2021
+K0135;Privat;;;Schmidt;Schillerstraße 96;89073;Ulm/Donau;Baden-Württemberg;07400-585556;uwe.schmidt@firma-bw.de;01.06.2023
+K0106;privat;;Petra;Wolf;Robert-Bosch-Str. 12;1067;Dresden;Sachsen;+49 7179 538184;petra.wolf@firma-bw.de;08/12/2022
+K0033;G;Schröder Landwirtschaft;Jürgen;Schröder;Industriestraße 42;04109;Leipzig;Sachsen;00497461355709;juergen.schroeder@t-online.de;18.09.2023
+K0030;Privat;;Stefan;Neumann;Robert-Bosch-Str. 4;70173;stuttgart;Baden-Württemberg;+49 7636 259784;stefan.neumann@web.de;2024-08-24
+K0077;G;Weber Landwirtschaft;Monika;Weber;Robert-Bosch-Str. 58;71065;Sindelfingen;Baden-Württemberg;00497828922471;;05/02/2022
+K0088;gewerbe;Richter Autohaus;Elif;Richter;Daimlerstraße 24;71083;herrenberg;Baden-Wuerttemberg;07120/374492;elif.richter@gmx.de;23.08.2024
+K0111;Privat;;Julia;Becker;Robert-Bosch-Str. 71;1067;Dresden;Sachsen;00497874645617;julia.becker@web.de;2023-01-11
+K0075;Gewerbe;Klein Autohaus;Frank;Klein;Daimlerstraße 88;71065;Sindelfingen ;Baden-Württemberg;07433/633188;frank.klein@t-online.de;2022-11-04
+K0005;G;Koch Bau GmbH;Andreas;Koch;Daimlerstraße 72;73728;Esslingen;BW;00497438711878;andreas.koch@t-online.de;2024-08-09
+K0060;Gewerbe;Krüger Heizungsbau;Markus;Krüger;Schillerstraße 76;71083;Herrenberg;Baden-Wuerttemberg;07968 744986;markus.krueger@web;21.08.2021
+K0023;G;Braun Bau GmbH;Monika;Braun;Schillerstraße 61;70173;stuttgart;Baden-Württemberg;07679-763686;monika.braun@firma-bw.de;2022-10-22
+K0117;G;Schulz Landwirtschaft;Frank;Schulz;Gartenstraße 53;D-70173;stuttgart;BW;00497772664058;frank.schulz@firma-bw.de;2022-12-07
+K0022;G;Koch Autohaus;Stefan;Koch;Bahnhofstraße 54;89073;Ulm/Donau;Baden-Wuerttemberg;07924-282480;stefan.koch@t-online.de;31.10.2022
+K0109;gewerbe;Weber Bau GmbH;Petra;Weber;Hauptstraße 34;71638;Ludwigsburg ;BW;07063 800224;petra.weber@web.de;2022-07-01
+K0072;G;Schröder Heizungsbau;Lukas;Schröder;Industriestraße 10;1067;Dresden;Sachsen;07567 930281;lukas.schroeder@web.de;2023-08-04
+K0057;P;;Daniel;Wolf;Daimlerstraße 48;89073;Ulm;Baden-Wuerttemberg;07241/997004;daniel.wolf@gmx.de;2023-09-30
+K0067;Gewerbe;Neumann Heizungsbau;Ahmad;Neumann;Gartenstraße 68;89073 ;Ulm/Donau;BW;;ahmad.neumann@gmx.de;2023-05-31
+K0050;G;Müller Spedition;Frank;Müller;Bahnhofstraße 23;70173;Stuttgart;Baden-Wuerttemberg;07246-621841;frank.mueller@t-online.de;2022-05-16
+K0048;G;Neumann Transporte;;Neumann;Robert-Bosch-Str. 84;70173;stuttgart;Baden-Württemberg;07992/377896;sabine.neumann@web.de;14.12.2023
+K0085;privat;;Jürgen;Wolf;Robert-Bosch-Str. 11;73728;Esslingen;Baden-Wuerttemberg;;juergen.wolf@firma-bw.de;16.10.2023
+K0024;Privat;;Markus;Hoffmann;Schillerstraße 25;71116;gärtringen;Baden-Wuerttemberg;07249 254739;;09/01/2023
+K0134;Gewerbe;Klein Logistik;Ahmad;Klein;Robert-Bosch-Str. 69;71032;Böblingen;Baden-Württemberg;07673/796982;ahmad.klein@firma-bw.de;2023-05-07
+K0017;Gewerbe;Yilmaz Spedition;Katrin;Yilmaz;Industriestraße 21;71638;Ludwigsburg ;Baden-Wuerttemberg;07437 688153;katrin.yilmaz@web.de;2021-04-01
+K0047;G;Braun Werkstatt;Elif;Braun;Hauptstraße 41;71638;Ludwigsburg ;Baden-Wuerttemberg;00497830499749;elif.braun@firma-bw.de;05.05.22
+K0150;Gewerbe;Fischer Heizungsbau;Michael;Fischer;Schillerstraße 84;71083;Herrenberg;Baden-Wuerttemberg;+49 7218 758589;michael.fischer@gmx.de;09/30/2021
+K0087;P;;Monika;Richter;Robert-Bosch-Str. 83;75172;PFORZHEIM;BW;07580-133958;monika.richter@gmx.de;2024-05-29
+K0063;Gewerbe;Richter Logistik;Katrin;Richter;Bahnhofstraße 72;71065 ;Sindelfingen;BW;00497420470774;katrin.richterweb.de;06/04/2023
+K0118;Gewerbe;Hoffmann Logistik;Markus;Hoffmann;Industriestraße 83;04109;Leipzig;Sachsen;+49 7094 661654;markus.hoffmann@web.de;2024-02-16
+K0070;gewerbe;Becker Autohaus;Michael;Becker;Daimlerstraße 15;73728;Esslingen;Baden-Württemberg;+49 7357 468154;michael.becker@firma-bw.de;2022-03-30
+K0126;P;;Anna;Krüger;Daimlerstraße 119;71032;böblingen;Baden-Württemberg;07870 429761;anna.krueger@web.de;06.03.24
+K0153;Privat;;Anna;Braun;Robert-Bosch-Str. 61;71083;herrenberg;Baden-Württemberg;07283 775933;anna.braun@gmx.de;03/24/2021
+K0021;G;Schmidt Transporte;Katrin;Schmidt;Hauptstraße 91;71032;Böblingen ;Baden-Württemberg;+49 7825 664607;katrin.schmidt@t-online.de;2021-08-25
+K0068;Gewerbe;Schmidt Bau GmbH;Uwe;Schmidt;Bahnhofstraße 49;70173;Stgt.;Baden-Württemberg;07853/800499;uwe.schmidt@gmx.de;2021-09-03
+K0018;Privat;;Sabine;Braun;Bahnhofstraße 86;D-70173;Stuttgart;BW;07905-526117;sabine.braun@gmx.de;17.01.2023
+K0119;Gewerbe;Hofmann Autohaus;Monika;Hofmann;Industriestraße 39;89073;Ulm;Baden-Württemberg;07985 877493;monika.hofmann@gmx.de;07.10.2024
+K0016;privat;;Sophie;Müller;Schillerstraße 20;1067;Dresden;Sachsen;+49 7734 459536;sophie.mueller@t-online.de;03.10.2021
+K0023;G;Braun Bau GmbH;Monika;Braun;Schillerstraße 61;70173;stuttgart;Baden-Württemberg;07679-763686;monika.braun@firma-bw.de;2022-10-22
+K0110;Gewerbe;Klein Heizungsbau;Petra;Klein;Bahnhofstraße 59;01067;Dresden;Sachsen;07934-593699;petra.klein@web.de;23.01.2023
+K0114;Privat;;Daniel;Weber;Hauptstraße 97;1067;Dresden;Sachsen;00497736670892;DANIEL.WEBER@WEB.DE;2023-12-20
+K0059;Gewerbe;Wagner Bau GmbH;Daniel;Wagner;Bahnhofstraße 70;89073;ulm;Baden-Württemberg;+49 7887 127032;daniel.wagner@t-online.de;2024-05-05
+K0015;gewerbe;Müller Autohaus;Stefan;Müller;Industriestraße 37;71638;Ludwigsburg;Baden-Wuerttemberg;07720-417212;stefan.mueller@web.de;29.09.21
+K0080;gewerbe;Richter Autohaus;Sophie;Richter;Industriestraße 118;71116;Gaertringen;Baden-Württemberg;07480-570392;sophie.richter@t-online.de;2021-07-22
+K0012;G;Fischer Spedition;Daniel;Fischer;Gartenstraße 116;70173;Stuttgart;Baden-Württemberg;00497399378085;daniel.fischer@web.de;2021-12-07
+K0032;privat;;Markus;Fischer;Hauptstraße 65;4109;leipzig;Sachsen;07842 614013;markus.fischer@web.de;2021-03-26
+K0115;Gewerbe;Becker Heizungsbau;Markus;Becker;Robert-Bosch-Str. 120;71638;Ludwigsburg;Baden-Württemberg;07103 722795;markus.becker@gmx.de;2021-08-20
+K0031;Gewerbe;Krüger Heizungsbau;Michael;Krüger;Hauptstraße 119;71116;Gaertringen;Baden-Wuerttemberg;07732 307963;MICHAEL.KRUEGER@T-ONLINE.DE;23.08.2021
+K0056;Gewerbe;Koch Autohaus;Daniel;Koch;Industriestraße 64;89073;Ulm;Baden-Württemberg;00497550242254;daniel.koch@firma-bw.de;2023-04-17
+K0129;Gewerbe;Schneider Werkstatt;;Schneider;Industriestraße 98;71032;böblingen;Baden-Württemberg;00497191551914;markus.schneider@gmx.de;07.08.2021
+K0120;G;Becker Bau GmbH;Lukas;Becker;Industriestraße 34;4109;leipzig;Sachsen;00497822857505;lukas.becker@firma-bw.de;03.08.2022
+K0083;privat;;Katrin;Müller;Industriestraße 105;71083;Herrenberg;Baden-Wuerttemberg;+49 7490 762423;katrin.mueller@t-online.de;01.08.2021
+K0084;G;Schröder Spedition;Stefan;Schröder;Industriestraße 5;70173;stuttgart;BW;07799/150126;stefan.schroeder@gmx.de;2022-09-28
+K0146;P;;Katrin;Richter;Robert-Bosch-Str. 9;71638;Ludwigsburg ;Baden-Wuerttemberg;+49 7439 964915;katrin.richter@t-online.de;2021-07-10
+K0121;G;Wagner Spedition;Anna;Wagner;Bahnhofstraße 49;D-71083;Herrenberg;Baden-Wuerttemberg;07966/818113;anna.wagner@gmx.de;2024-02-08
+K0113;Privat;;Andreas;Wolf;Bahnhofstraße 99;D-71083;herrenberg;BW;00497391570325;andreas.wolf@web.de;2023-08-25
+K0042;Privat;;Stefan;Becker;Schillerstraße 84;1067;Dresden;Sachsen;00497599557058;stefan.becker@web.de;06.07.22
+K0107;gewerbe;Klein Heizungsbau;Andreas;Klein;Schillerstraße 68;71638;ludwigsburg;Baden-Württemberg;+49 7479 386090;;08.08.2021
+K0097;G;Klein Bau GmbH;Stefan;Klein;Daimlerstraße 61;D-75172;PFORZHEIM;Baden-Württemberg;07441/240440;stefan.klein@gmx.de;31.07.2022
+K0027;Privat;;Katrin;Koch;Schillerstraße 60;71083;herrenberg;Baden-Württemberg;07430-508396;katrin.koch@web;11/09/2021
+K0066;gewerbe;Schneider Werkstatt;Thomas;Schneider;Hauptstraße 114;4109;Leipzig;Sachsen;07632 152179;thomas.schneider@firma-bw.de;2022-10-01
+K0095;G;Wolf Transporte;Elif;Wolf;Schillerstraße 14;71638;ludwigsburg;Baden-Württemberg;+49 7273 571435;elif.wolf@gmx.de;2022-12-09
+K0040;G;Meyer Logistik;Stefan;Meyer;Industriestraße 101;70173;Stgt.;Baden-Württemberg;+49 7557 335729;;08/03/2022
+K0114;Privat;;Daniel;Weber;Hauptstraße 97;1067;Dresden;Sachsen;00497736670892;DANIEL.WEBER@WEB.DE;2023-12-20
+K0036;Gewerbe;Schulz Autohaus;Elif;Schulz;Daimlerstraße 76;72070;TÜBINGEN;BW;07852/303547;elif.schulz@gmx.de;2022-01-15
+K0020;gewerbe;Becker Werkstatt;Markus;Becker;Robert-Bosch-Str. 69;D-70173; Stuttgart ;Baden-Württemberg;+49 7993 373903;markus.becker@t-online.de;26.07.2022
+K0079;P;;Jürgen;Braun;Gartenstraße 12;71032;Boeblingen;Baden-Wuerttemberg;00497952127965;juergen.braun@web.de;2022-07-13
+K0148;privat;;Sabine;Hoffmann;Hauptstraße 51;71065;Sindelfingen ;BW;00497773345517;sabine.hoffmannt-online.de;18.06.2021
+K0069;G;Wolf Autohaus;Andreas;Wolf;Industriestraße 22;70173;Stgt.;Baden-Wuerttemberg;07941 479430;andreas.wolf@t-online.de;2024-08-04
+K0149;gewerbe;Müller Landwirtschaft;Michael;Müller;Gartenstraße 89;71116;Gärtringen;Baden-Wuerttemberg;;michael.mueller@gmx.de;2021-01-17
+K0011;Gewerbe;Richter Spedition;Ahmad;Richter;Bahnhofstraße 55;73728;Esslingen am Neckar;BW;00497895179046;;12.08.2021
+K0052;G;Neumann Transporte;Monika;Neumann;Daimlerstraße 100;71032;Böblingen;Baden-Wuerttemberg;+49 7924 400096;monika.neumann@t-online.de;10.09.2024
+K0090;Privat;;Frank;Meyer;Gartenstraße 4;4109;leipzig;Sachsen;07564-236074;frank.meyer@gmx.de;09/06/2021
+K0055;privat;;Daniel;Richter;Industriestraße 14;;Boeblingen;Baden-Wuerttemberg;;daniel.richter@web.de;01/25/2023
+K0054;gewerbe;Braun Heizungsbau;Sabine;Braun;Hauptstraße 60;71083;Herrenberg;Baden-Württemberg;00497231809176;sabine.braun@gmx.de;14.09.23
+K0124;Gewerbe;Hoffmann Werkstatt;Daniel;Hoffmann;Robert-Bosch-Str. 46;70173 ; Stuttgart ;Baden-Wuerttemberg;;daniel.hoffmanngmx.de;01.11.21
+K0112;Gewerbe;Krüger Logistik;Julia;Krüger;Industriestraße 93;71638;Ludwigsburg;Baden-Wuerttemberg;+49 7003 882032;julia.krueger@web.de;25.07.2023
+K0092;gewerbe;Weber Spedition;Petra;Weber;Schillerstraße 115;73728;Esslingen a.N.;Baden-Württemberg;07650/677599;petra.weber@web.de;2021-11-28
+K0081;Gewerbe;Müller Landwirtschaft;Stefan;Müller;Robert-Bosch-Str. 80;72070;Tuebingen;Baden-Württemberg;07926-624108;stefan.muellerfirma-bw.de;2022-09-09
+K0037;privat;;Petra;Hoffmann;Robert-Bosch-Str. 97;70173;STUTTGART;Baden-Württemberg;00497587398151;petra.hoffmann@gmx.de;2024-02-08
+K0065;privat;;Daniel;Müller;Bahnhofstraße 73;89073;Ulm/Donau;Baden-Wuerttemberg;;;25.09.2022
+K0051;Gewerbe;Schulz Spedition;Elif;Schulz;Schillerstraße 39;71638;Ludwigsburg ;Baden-Wuerttemberg;07467/986365;elif.schulz@firma-bw.de;2021-11-20
+K0102;Privat;;Julia;Wolf;Daimlerstraße 62;75172;PFORZHEIM;BW;07470/659024;julia.wolf@firma-bw.de;2021-05-08
+K0008;Gewerbe;Koch Transporte;Uwe;Koch;Hauptstraße 98;71638;Ludwigsburg ;Baden-Württemberg;+49 7486 676510;uwe.koch@t-online.de;2024-03-07
+K0006;G;Yilmaz Spedition;Sabine;Yilmaz;Schillerstraße 60;71638;Ludwigsburg ;BW;07881 112038;SABINE.YILMAZ@WEB.DE;25.10.2024
+K0028;Gewerbe;Krüger Transporte;Thomas;Krüger;Gartenstraße 4;73728;Esslingen a.N.;BW;+49 7817 523956;thomas.krueger@t-online.de;09.05.2023
+K0132;G;Klein Werkstatt;Uwe;Klein;Industriestraße 38;71083;herrenberg;Baden-Württemberg;00497287956156;uwe.klein@gmx.de;2022-02-16
+K0002;privat;;Elif;Krüger;Robert-Bosch-Str. 44;72070;Tübingen;Baden-Württemberg;07367/988662;elif.krueger@web.de;16.05.2023
+K0009;privat;;Uwe;Wolf;Hauptstraße 32;71116;Gärtringen;Baden-Württemberg;+49 7602 680828;uwe.wolf@gmx.de;07.10.2024
+K0145;Gewerbe;Weber Transporte;Sabine;Weber;Gartenstraße 49;71116;Gaertringen;Baden-Württemberg;07901 906233;sabine.weber@gmx.de;2023-09-30
+K0003;gewerbe;Schröder Werkstatt;Andreas;Schröder;Hauptstraße 85;75172;Pforzheim;BW;07875 344098;andreas.schroeder@web.de;2024-06-20
+K0010;Gewerbe;Schneider Bau GmbH;Thomas;Schneider;Schillerstraße 17;04109;leipzig;Sachsen;+49 7826 526833;thomas.schneider@web.de;2021-05-26
+K0141;G;Klein Logistik;Julia;Klein;Robert-Bosch-Str. 98;75172;Pforzheim;BW;;julia.klein@firma-bw.de;2023-06-29
+K0123;G;Müller Transporte;Sabine;MÜLLER;Schillerstraße 71;71116;Gaertringen;Baden-Württemberg;;sabine.mueller@web.de;16.06.2024
+K0061;Gewerbe;Hoffmann Spedition;Sophie;Hoffmann;Hauptstraße 116;71638;Ludwigsburg;BW;07067/232321;sophie.hoffmann@web.de;24.05.2023
+K0098;G;Richter Bau GmbH;Monika;Richter;Schillerstraße 88;D-70173;Stgt.;Baden-Württemberg;07099/513037;monika.richter@t-online.de;30.10.2023
+K0045;G;Hoffmann Werkstatt;Petra;Hoffmann;Bahnhofstraße 64;75172;PFORZHEIM;BW;+49 7494 595158;petra.hoffmann@web.de;2021-08-21
+K0094;gewerbe;Schulz Werkstatt;Nina;Schulz;Daimlerstraße 52;1067;Dresden;Sachsen;;nina.schulz@web.de;2022-08-17
+K0108;Gewerbe;Meyer Heizungsbau;Anna;Meyer;Gartenstraße 106;4109;leipzig;Sachsen;;;28.08.2022
+K0100;P;;Anna;Meyer;Robert-Bosch-Str. 3;73728;Esslingen a.N.;BW;07426/712056;anna.meyer@t-online.de;10.11.2023
+K0034;gewerbe;Koch Transporte;Monika;Koch;Industriestraße 72;70173;Stuttgart;Baden-Württemberg;;monika.koch@gmx.de;14.06.2022
+K0082;P;;Sophie;Krüger;Schillerstraße 47;71116;Gärtringen;Baden-Württemberg;00497481145649;sophie.krueger@t-online.de;08.05.22
+K0093;gewerbe;Hofmann Landwirtschaft;Frank;Hofmann;Robert-Bosch-Str. 111;75172;Pforzheim;Baden-Württemberg;;FRANK.HOFMANN@GMX.DE;24.05.2024
+K0004;Gewerbe;Richter Bau GmbH;Elif;Richter;Gartenstraße 49;71065;sindelfingen;Baden-Württemberg;07863 905635;elif.richter@t-online.de;2021-05-27
+K0136;gewerbe;Richter Heizungsbau;Sabine;Richter;Bahnhofstraße 67;70173 ;STUTTGART;BW;00497448857065;sabine.richter@firma-bw.de;2021-10-18
+K0019;Privat;;Markus;Meyer;Hauptstraße 49;71065;Sindelfingen;Baden-Wuerttemberg;07836/582662;MARKUS.MEYER@WEB.DE;2023-04-24
+K0128;G;Schneider Werkstatt;Markus;Schneider;Gartenstraße 56;71083;Herrenberg;Baden-Wuerttemberg;;;12.07.2023
+K0143;Gewerbe;Schröder Autohaus;Andreas;Schröder;Industriestraße 111;72070 ;TÜBINGEN;Baden-Wuerttemberg;+49 7142 922974;andreas.schroeder@firma-bw.de;01.05.2022
+K0029;Gewerbe;Hofmann Werkstatt;Sabine;Hofmann;Bahnhofstraße 59;75172;PFORZHEIM;BW;00497388391773;sabine.hofmannweb.de;2023-08-04
+K0099;Privat;;Anna;Braun;Robert-Bosch-Str. 61;71083;herrenberg;Baden-Württemberg;07527/246570;anna.braun@gmx.de;03/24/2021
+K0127;P;;Nina;Weber;Gartenstraße 97;4109;Leipzig;Sachsen;07997 462659;nina.weber@web.de;2024-03-06
+K0062;Gewerbe;Braun Heizungsbau;Nina;Braun;Gartenstraße 44;4109;leipzig;Sachsen;00497097427730;nina.braun@firma-bw.de;2021-08-23
+K0014;gewerbe;Becker Bau GmbH;Stefan;Becker;Daimlerstraße 41;73728;Esslingen am Neckar;BW;07687/776856;stefan.becker@web.de;2024-04-10
+K0076;gewerbe;Meyer Logistik;Frank;Meyer;Robert-Bosch-Str. 70;;gärtringen;Baden-Württemberg;07897-903531;frank.meyer@gmx.de;2021-06-08
+K0101;G;Hofmann Bau GmbH;Thomas;Hofmann;Hauptstraße 74;71638;Ludwigsburg ;Baden-Württemberg;00497451428930;thomas.hofmann@web.de;2024-07-12
+K0049;Privat;;Monika;Schneider;Daimlerstraße 118;71083;herrenberg;Baden-Württemberg;07444 203225;monika.schneider@firma-bw.de;2023-09-27
+K0131;gewerbe;Weber Heizungsbau;Lukas;Weber;Gartenstraße 77;71032;Boeblingen;Baden-Wuerttemberg;00497311107096;lukas.weber@firma-bw.de;2023-01-10
+K0133;Privat;;Nina;Wagner;Daimlerstraße 9;89073;ulm;Baden-Wuerttemberg;07310/353777;nina.wagner@gmx.de;04.08.2023
+K0053;Gewerbe;Becker Heizungsbau;Jürgen;Becker;Schillerstraße 47;01067;Dresden;Sachsen;00497334883790;juergen.becker@gmx.de;2024-08-16
+K0078;P;;Julia;Richter;Robert-Bosch-Str. 78;1067;Dresden;Sachsen;;julia.richter@firma-bw.de;2023-02-22
+K0007;Gewerbe;Schulz Heizungsbau;Daniel;Schulz;Daimlerstraße 39;1067;Dresden;Sachsen;07165-665579;DANIEL.SCHULZ@FIRMA-BW.DE;06/24/2022
+K0073;Gewerbe;Wagner Landwirtschaft;Nina;Wagner;Bahnhofstraße 91;71083;herrenberg;Baden-Wuerttemberg;07624/266457;nina.wagner@web.de;2022-12-05
+K0151;Gewerbe;Schulz Autohaus;Elif;Schulz;Daimlerstraße 76;72070;tübingen;BW;07359/550246;elif.schulz@gmx.de;2022-01-15
+K0026;gewerbe;Wolf Landwirtschaft;Sophie;Wolf;Daimlerstraße 31;75172;PFORZHEIM;Baden-Wuerttemberg;;sophie.wolf@firma-bw.de;2024-07-29
+K0142;gewerbe;Meyer Logistik;Frank;Meyer;Robert-Bosch-Str. 93;71638;ludwigsburg;Baden-Württemberg;+49 7104 871740;frank.meyer@web.de;2024-01-18
+K0064;gewerbe;Hoffmann Autohaus;Andreas;Hoffmann;Robert-Bosch-Str. 36;89073;Ulm/Donau;Baden-Württemberg;07865-688215;ANDREAS.HOFFMANN@GMX.DE;10.08.2021

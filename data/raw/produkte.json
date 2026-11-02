@@ -1,0 +1,369 @@
+{
+  "export_datum": "2026-01-05",
+  "quelle": "WaWi-Export",
+  "artikel": [
+    {
+      "artikel_nr": "A-001",
+      "bezeichnung": "Diesel B7",
+      "kategorie": {
+        "haupt": "Kraftstoffe",
+        "unter": "Diesel"
+      },
+      "einheit": "L",
+      "preis": "1.62",
+      "aktiv": 1
+    },
+    {
+      "artikel_nr": "A-002",
+      "bezeichnung": "Super E10",
+      "kategorie": {
+        "haupt": "Kraftstoffe",
+        "unter": "Super"
+      },
+      "einheit": "L",
+      "preis": "1,74 €",
+      "lieferant": {
+        "name": "Aral AG",
+        "land": "Germany"
+      },
+      "aktiv": true
+    },
+    {
+      "artikel_nr": "A-003",
+      "bezeichnung": "SUPER E5",
+      "kategorie": {
+        "haupt": "Kraftstoffe",
+        "unter": "Super"
+      },
+      "einheit": "ltr",
+      "preis": 1.8,
+      "lieferant": {
+        "name": "Castrol",
+        "land": "DE"
+      },
+      "aktiv": true
+    },
+    {
+      "artikel_nr": "A-004",
+      "bezeichnung": "HVO100 Diesel",
+      "kategorie": {
+        "haupt": "Kraftstoffe",
+        "unter": "HVO100"
+      },
+      "einheit": "ltr",
+      "preis": "1,85 €",
+      "lieferant": {
+        "name": "Fuchs Schmierstoffe",
+        "land": "Germany"
+      },
+      "aktiv": true
+    },
+    {
+      "artikel_nr": "A-005",
+      "bezeichnung": "Heizöl EL schwefelarm",
+      "kategorie": {
+        "haupt": "Heizöl",
+        "unter": "Heizöl"
+      },
+      "einheit": "l",
+      "preis": 1.05,
+      "lieferant": {
+        "name": "Liqui Moly",
+        "land": "DE"
+      },
+      "aktiv": true
+    },
+    {
+      "artikel_nr": "A-006",
+      "bezeichnung": "Heizöl Premium",
+      "kategorie": {
+        "haupt": "Heizöl",
+        "unter": "Heizöl"
+      },
+      "einheit": "L",
+      "preis": "1,12 €",
+      "lieferant": {
+        "name": "Aral AG",
+        "land": "Germany"
+      },
+      "aktiv": true
+    },
+    {
+      "artikel_nr": "A-007",
+      "bezeichnung": "Motoröl 5W-30 Longlife",
+      "kategorie": {
+        "haupt": "Motoröle",
+        "unter": "Motoröl"
+      },
+      "einheit": "ltr",
+      "preis": null,
+      "lieferant": {
+        "name": "Shell Deutschland",
+        "land": "Deutschland"
+      },
+      "aktiv": true
+    },
+    {
+      "artikel_nr": "A-008",
+      "bezeichnung": "Motoröl 10W-40",
+      "kategorie": {
+        "haupt": "Motoröle",
+        "unter": "Motoröl"
+      },
+      "einheit": "ltr",
+      "preis": "7.50",
+      "lieferant": {
+        "name": "Castrol",
+        "land": "Germany"
+      },
+      "aktiv": true
+    },
+    {
+      "artikel_nr": "A-009",
+      "bezeichnung": "Motoröl 0W-20",
+      "kategorie": {
+        "haupt": "Motoröle",
+        "unter": "Motoröl"
+      },
+      "einheit": "ltr",
+      "preis": 12.4,
+      "lieferant": {
+        "name": "Fuchs Schmierstoffe",
+        "land": "DE"
+      },
+      "aktiv": "ja"
+    },
+    {
+      "artikel_nr": "A-010",
+      "bezeichnung": "Motoröl 15W-40 LKW",
+      "kategorie": {
+        "haupt": "Motoröle",
+        "unter": "Motoröl"
+      },
+      "einheit": "Liter",
+      "preis": "6,80 €",
+      "lieferant": {
+        "name": "Mannol",
+        "land": "Deutschland"
+      },
+      "aktiv": true
+    },
+    {
+      "artikel_nr": "A-011",
+      "bezeichnung": "Hydrauliköl HLP 46",
+      "kategorie": {
+        "haupt": "Hydrauliköle",
+        "unter": "Hydrauliköl"
+      },
+      "einheit": "l",
+      "preis": "4.20",
+      "lieferant": {
+        "name": "Aral AG",
+        "land": "DE"
+      },
+      "aktiv": true
+    },
+    {
+      "artikel_nr": "A-012",
+      "bezeichnung": "Hydrauliköl HLP 68",
+      "kategorie": {
+        "haupt": "Hydrauliköle",
+        "unter": "Hydrauliköl"
+      },
+      "einheit": "Liter",
+      "preis": 4.35,
+      "lieferant": {
+        "name": "Liqui Moly",
+        "land": "Deutschland"
+      },
+      "aktiv": "ja"
+    },
+    {
+      "artikel_nr": "A-013",
+      "bezeichnung": "Getriebeöl 75W-90",
+      "kategorie": {
+        "haupt": "Getriebeöle",
+        "unter": "Getriebeöl"
+      },
+      "einheit": "Liter",
+      "preis": "11.20",
+      "lieferant": {
+        "name": "Mannol",
+        "land": "DE"
+      },
+      "aktiv": true
+    },
+    {
+      "artikel_nr": "A-014",
+      "bezeichnung": "ATF DEXRON III",
+      "kategorie": {
+        "haupt": "Getriebeöle",
+        "unter": "ATF"
+      },
+      "einheit": "l",
+      "preis": "8,10 €",
+      "lieferant": {
+        "name": "Liqui Moly",
+        "land": "DE"
+      },
+      "aktiv": true
+    },
+    {
+      "artikel_nr": "A-015",
+      "bezeichnung": "ADBLUE",
+      "kategorie": {
+        "haupt": "Additive",
+        "unter": "AdBlue"
+      },
+      "einheit": "ltr",
+      "preis": "0,89 €",
+      "lieferant": {
+        "name": "Fuchs Schmierstoffe",
+        "land": "DE"
+      },
+      "aktiv": true
+    },
+    {
+      "artikel_nr": "A-016",
+      "bezeichnung": "Kühlerfrostschutz G12",
+      "kategorie": {
+        "haupt": "Additive",
+        "unter": "Kühlerfrostschutz"
+      },
+      "einheit": "L",
+      "preis": 3.9,
+      "lieferant": {
+        "name": "Shell Deutschland",
+        "land": "DE"
+      },
+      "aktiv": true
+    },
+    {
+      "artikel_nr": "A-017",
+      "bezeichnung": "Diesel-Fließverbesserer",
+      "kategorie": {
+        "haupt": "Additive",
+        "unter": "Diesel-Fließverbesserer"
+      },
+      "einheit": "L",
+      "preis": null,
+      "aktiv": true
+    },
+    {
+      "artikel_nr": "A-018",
+      "bezeichnung": "Mehrzweckfett Lithium",
+      "kategorie": {
+        "haupt": "Schmierfette",
+        "unter": "Mehrzweckfett"
+      },
+      "einheit": "KG",
+      "preis": null,
+      "lieferant": {
+        "name": "Aral AG",
+        "land": "Deutschland"
+      },
+      "aktiv": true
+    },
+    {
+      "artikel_nr": "A-019",
+      "bezeichnung": "Hochtemperaturfett",
+      "kategorie": {
+        "haupt": "Schmierfette",
+        "unter": "Hochtemperaturfett"
+      },
+      "einheit": "Kilogramm",
+      "preis": null,
+      "lieferant": {
+        "name": "Mannol",
+        "land": "Germany"
+      },
+      "aktiv": "ja"
+    },
+    {
+      "artikel_nr": "A-020",
+      "bezeichnung": "Ölwanne 20L",
+      "kategorie": {
+        "haupt": "Zubehör",
+        "unter": "Ölwanne"
+      },
+      "einheit": "Stück",
+      "preis": 12.99,
+      "aktiv": "ja"
+    },
+    {
+      "artikel_nr": "A-021",
+      "bezeichnung": "Einfüllpistole",
+      "kategorie": {
+        "haupt": "Zubehör",
+        "unter": "Einfüllpistole"
+      },
+      "einheit": "Stück",
+      "preis": "24.50",
+      "lieferant": {
+        "name": "Castrol",
+        "land": "Germany"
+      },
+      "aktiv": "ja"
+    },
+    {
+      "artikel_nr": "A-022",
+      "bezeichnung": "KANISTER 20L METALL",
+      "kategorie": {
+        "haupt": "Zubehör",
+        "unter": "Kanister"
+      },
+      "einheit": "pcs",
+      "preis": 29.9,
+      "lieferant": {
+        "name": "Liqui Moly",
+        "land": "DE"
+      },
+      "aktiv": 1
+    },
+    {
+      "artikel_nr": "A-023",
+      "bezeichnung": "Ölbindemittel Sack 20kg",
+      "kategorie": {
+        "haupt": "Zubehör",
+        "unter": "Ölbindemittel"
+      },
+      "einheit": "Stk",
+      "preis": "18,40 €",
+      "lieferant": {
+        "name": "Mannol",
+        "land": "Deutschland"
+      },
+      "aktiv": "ja"
+    },
+    {
+      "artikel_nr": "A-024",
+      "bezeichnung": "Handpumpe Fass",
+      "kategorie": {
+        "haupt": "Zubehör",
+        "unter": "Handpumpe"
+      },
+      "einheit": "stk",
+      "preis": "89,00 €",
+      "lieferant": {
+        "name": "Castrol",
+        "land": "DE"
+      },
+      "aktiv": true
+    },
+    {
+      "artikel_nr": "a-007 ",
+      "bezeichnung": "Motoröl 5W-30 Longlife",
+      "kategorie": {
+        "haupt": "Motoröle",
+        "unter": "Motoröl"
+      },
+      "einheit": "ltr",
+      "preis": null,
+      "lieferant": {
+        "name": "Shell Deutschland",
+        "land": "Deutschland"
+      },
+      "aktiv": true
+    }
+  ]
+}
